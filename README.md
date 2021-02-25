@@ -18,7 +18,6 @@
 
 - [Submitting Batch Scripts on Slurm (`sbatch`)](./jobs_with_slurm/submitting_scripts.md) : Information, examples and practices of submitting batch scripts on slurm with `sbatch`
 
-[todo]: <> (add allocating resources and array jobs)
 
 - [Monitoring Jobs using `squeue`](./jobs_with_slurm/monitor_jobs.md) : Using `squeue` to monitor jobs and some additional resoueses to monitoring.
 
