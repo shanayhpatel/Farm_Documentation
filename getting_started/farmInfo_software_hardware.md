@@ -2,9 +2,9 @@
 
 ## Operating System
 
-**Farm II** cluster runs Ubuntu 18.04. Farm II uses the slurm batch queue manager. System configuration and management is via cobbler and puppet.
+**Farm II** cluster runs Ubuntu 18.04. Farm II uses the [slurm batch queue manager](./jobs_with_slurm/slurm_intro.md). System configuration and management is via cobbler and puppet.
 
-[todo]: <> (Add link to slurm intro, same for cobbler and puppet)
+[todo]: <> (Cobbler and puppet, any docs for cobbler and puppet?)
 
 ## Software
 
@@ -17,7 +17,7 @@ Documentation on some of the custom installed software is at [HPC Software Docum
 
 [todo]: <> (New link once software packages documentation is ready, talk about what we want to keep)
 
-## Hardware 
+## Hardware
 
 **Interconnect**
 

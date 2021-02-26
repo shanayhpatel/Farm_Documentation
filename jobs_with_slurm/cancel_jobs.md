@@ -1,4 +1,3 @@
-
 ## Cancel your jobs with `scancel`
 
 To cancel a single job you can specify the `JOBID`

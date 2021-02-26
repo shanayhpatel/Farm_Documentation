@@ -25,15 +25,11 @@ git
 
 - [Cancelling Jobs using `scancel`](./jobs_with_slurm/cancel_jobs.md) : Canceling jobs using Job Id, Partition Name or Account.
 
-
-
-
 ## Managing Data on Farm
 
 - [Basics of Space on Farm](./managing_data/space_basics.md) : Checking space that you use, info on how to compress files and tips about managing space.
 
 - [Data Transfer to Farm](./managing_data/dataTransfer_basics.md) : Info on transferring and uploading data to farm on port 2022 using `screen` and `rsync`.
-
 
 - [Shared Scratch Space](./managing_data/scratch_space.md) : Info on using the `/scratch/` directory.
 
