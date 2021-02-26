@@ -57,7 +57,7 @@ The **partition** we would like to use for our job––this will also entail th
  ```
 
  The farm has the following partitions:
- 1. parallel nodes names: `high`, `med`, `low`
+1. parallel nodes names: `high`, `med`, `low`
     - 24 nodes with 64 CPUs and 256GB ram
     - 95 nodes with 32 CPUs and 64GB ram
 2. bigmem nodes names: `bmh`, `bmm`, `bml`, `bigmemh`,`bigmemm`, `bigmeml`
@@ -65,8 +65,7 @@ The **partition** we would like to use for our job––this will also entail th
     - 9 nodes with 64 CPUs and 512GB
     - 1 node with 96 CPUs and 1024GB
 
-
-[comment/question]: <> (add link for more info on partitions and how they work)
+You can find more info on these partitions [here](./jobs_with_slurm/batch_partitions_farm.md).
 
 #### `mem` (memory) flag
 
@@ -80,7 +79,7 @@ the **memory** required to run our job. We can request a specified amount of tim
 
  [comment/question]: <> (feel there is type it should be memory instead of time)
 
- #### `mail` flag
+#### `mail` flag
 
 we can have slurm **mail** us updates about our job, such as when it starts(`BEGIN`), ends(`END`), if it fails(`FAIL`) or all of the above (`ALL`). There are many other mail-type arguments: REQUEUE, ALL, TIME_LIMIT, TIME_LIMIT_90 (reached 90 percent of time limit), TIME_LIMIT_80 (reached 80 percent of time limit), TIME_LIMIT_50 (reached 50 percent of time limit) and ARRAY_TASKS. We can request slurm emails us with the following flags: 
 

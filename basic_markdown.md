@@ -24,7 +24,7 @@ This paragraph has some highlight `hightlight mosty code goes here`\
 let x = Math.random()
 ```
 
-![alt text](https://i.imgur.com/9rSbIxR.png)
+![alt text](https://ucdavis-bioinformatics-training.github.io/2017_2018-single-cell-RNA-sequencing-Workshop-UCD_UCB_UCSF/day1/figures/cluster_diagram.png)
 
 some  pragraph with the blockquoate
 

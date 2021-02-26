@@ -7,7 +7,11 @@ nodes** which is where the action happens. Farm runs on a cluster workload manag
 [Slurm](https://slurm.schedmd.com). For the most part, you
 interact with Farm using scripts to launch jobs on the compute nodes;
 you don't run processes on the head node and you don't log into the
-compute nodes directly. The only tasks that acceptable on the head node are:
+compute nodes directly. 
+
+![client vs head node vs compute node](https://ucdavis-bioinformatics-training.github.io/2017_2018-single-cell-RNA-sequencing-Workshop-UCD_UCB_UCSF/day1/figures/cluster_diagram.png)
+
+The only tasks that acceptable on the head node are:
 
 [todo]: <> (add a picture for better understanding)
 
@@ -26,7 +30,6 @@ CSE Help.
 If you don't already have access to Farm, you can know more about on the  [Farm Access Page](./farm_access_info.md)
 
 [comment/question]: <> (It is not CSE help right now, what is it?)
-[comment/todo]: <> (check if this link works on github as well)
 
 ## Creating an SSH Key and Farm Account
 

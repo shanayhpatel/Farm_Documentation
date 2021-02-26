@@ -11,11 +11,12 @@ Interactive sessions allow you to work on computers that aren't the login/head n
 - The commands you run will not be saved in scripts anywhere. So, if you wanted to go back and recreate an analysis, you won't know what you've run, how you've run it or which versions of software you used.
 
 To request and launch a basic interactive session that will last for two hours use the following:
-```
+
+```Shell
 srun --time=02:00:00 --pty /bin/bash
 ```
 
-Pay close attention to the time you give to yourself using `srun`! Slurm will terminate the session immediately at the end of the allotted time. It, sadly, doesn't care if you are 99.99% of the way through your analysis :/
+Pay close attention to the time you give to yourself using `srun`! Slurm will terminate the session immediately at the end of the allotted time. It, sadly, doesn't care if you are 99.99% of the way through your analysis
 
 Also, you can request more/different resources by using to following flags:
 
@@ -30,14 +31,14 @@ Also, you can request more/different resources by using to following flags:
 ### Example of using bigmemh  to work interactivity with R with 16 gigabytes memory
 
 ```Shell
-$ ssh -X farm
-$ srun -p bigmemh -t 2:00:00 --mem 16384 --pty R
+$ssh -X farm
+$srun -p bigmemh -t 2:00:00 --mem 16384 --pty R
 ```
 
 If you want to render R plots to your local computer through X11, here is a solution:
 
 ```Shell
-$ srunx your-partition
+$srunx your-partition
 ```
 
 Make sure your `X11` is open before you typing the command.

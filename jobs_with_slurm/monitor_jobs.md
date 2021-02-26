@@ -1,5 +1,9 @@
 # Monitoring Jobs
 
+## Monitor Jobs with Ganglia
+
+Ganglia is available at [http://stats.cse.ucdavis.edu/ganglia/?c=Agri&m=load_one&r=hour&s=descending&hc=4&mc=2]
+
 ## Monitor Jobs with `squeue`
 
 Oftentimes we submit jobs and would like to know certain things about them -- if they've started, how long they've been running, if they are still running, etc, etc... We can look at the status of any job Slurm is handling by using `squeue`
@@ -13,7 +17,7 @@ squeue
 we will see **many** rows of jobs....
 
 
-```
+```Shell
          JOBID PARTITION     NAME     USER ST        TIME  NODES CPU MIN_ME NODELIST(REASON)
       15218450       bmh this_is_ keyu1996 CG       31:10      1 2   100G   bm3
       15219413       bmh     pigz   aminio CG        0:01      1 8   4G     bm2
