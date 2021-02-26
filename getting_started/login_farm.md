@@ -23,7 +23,7 @@ be your UCD kerberos ID. You will have to have generated a SSH key
 and given the **public** key part (do not share the private key!) to
 CSE Help.
 
-If you don't already have access to Farm, you can know more about on the  [Farm Access Page](./farm_access_info)
+If you don't already have access to Farm, you can know more about on the  [Farm Access Page](./farm_access_info.md)
 
 [comment/question]: <> (It is not CSE help right now, what is it?)
 [comment/todo]: <> (check if this link works on github as well)
