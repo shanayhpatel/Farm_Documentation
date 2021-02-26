@@ -1,6 +1,6 @@
 # Hello
 
-## I am awesoeme
+## I
 [comment]: <> (Confused on partition and what to link if users want to know more about partitions.)
 Just some text
 
