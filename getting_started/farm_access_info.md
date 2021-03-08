@@ -4,14 +4,20 @@ Farm is a research and teaching cluster for the College of Agricultural and Envi
 
 ## Access Policy
 
-All researchers in College of Agriculture and Environmental Sciences are entitled to free access to the original 8 nodes with 24 CPUs each and 64GB ram in the low, med, and high partitions.
+All researchers in CA&ES are entitled to free access to 8 nodes with 24 CPUs and 64GB RAM each (up to a maximum of 192 CPUs and 512GB RAM) in Farm II’s low, medium, and high priority batch queues, as well as 1TB storage space.
+
+Additional usage and access may be purchased by contributing to Farm III by through the node and/or storage rates, or by purchasing equipment and contributing through the rack fee rate.
+
+Contributors always receive priority access to the resources that they have purchased within one minute with the “one-minute guarantee.” Users can also request additional unused resources on a “fair share” basis–someone who contributes twice as much will be able to use twice as many unused resources in the medium or low partitions.
 
 [comment]: <> (Confused on partition and what to link if users want to know more about partitions.)
 [todo]: <> (Add link to info on different partitions)
 
-Any new nodes purchased will be in the “Farm III” pool separate from existing farm partitions. Currently (June 2019) the “Farm III” pool has 24 “parallel” nodes and 13 “bigmem” nodes.
+## Current Rates
 
-<details>
+Updated info on current rates and latest farm hardware specifications can be found at HPC Website : [https://hpc.ucdavis.edu/farm-cluster]() 
+
+<!-- <details>
 
   <summary> Costs to add to farm III (open) </summary>
 
@@ -25,21 +31,15 @@ Everyone gets free access to a common storage pool for 1TB per user. If you need
 Researchers with bigger storage needs can purchase storage at a rate of $1,000 per 10TB.
 </details>
 
-<br>
+<br> -->
+
+## Get your account on Farm
 
 For access to the cluster, please fill out the [Account Request Form](http://wiki.cse.ucdavis.edu/cgi-bin/index2.pl). Choose “Farm” for the cluster, and if your PI already has access to Farm, select their name from the dropdown. Otherwise, select “Getchell” as your sponsor and notify [Adam Getchell](mailto:acgetchell@ucdavis.edu). Please review the Getting Started section.
 
 [todo]: <> (make getting started section and link it, add log in and ssh key instructions)
 
 Purchases can be split among different groups, but have to accumulate until a full node is purchased. Use of resources can be partitioned according to financial contribution.
-
-[todo]: <> (feel Monitoring should be somewhere else)
-
-## Monitoring
-
-Ganglia is available at [http://stats.cse.ucdavis.edu/ganglia/?c=Agri&m=load_one&r=hour&s=descending&hc=4&mc=2]
-
-[todo]: <> (some context about ganglia and what is does, make link look better)
 
 ## Additional information for prospective investors
 

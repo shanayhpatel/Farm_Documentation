@@ -7,7 +7,7 @@ nodes** which is where the action happens. Farm runs on a cluster workload manag
 [Slurm](https://slurm.schedmd.com). For the most part, you
 interact with Farm using scripts to launch jobs on the compute nodes;
 you don't run processes on the head node and you don't log into the
-compute nodes directly. 
+compute nodes directly.
 
 ![client vs head node vs compute node](https://ucdavis-bioinformatics-training.github.io/2017_2018-single-cell-RNA-sequencing-Workshop-UCD_UCB_UCSF/day1/figures/cluster_diagram.png)
 
@@ -22,7 +22,7 @@ The only tasks that acceptable on the head node are:
 
 ## Connecting with Farm
 
-The address is `username@agri.cse.ucdavis.edu`. `username` here will
+The address is `username@farm.cse.ucdavis.edu`. `username` here will
 be your UCD kerberos ID. You will have to have generated a SSH key
 and given the **public** key part (do not share the private key!) to
 CSE Help.
@@ -81,14 +81,14 @@ Your public key is in a file called `id_rsa.pub`.
 
 3. Attach `id_rsa.pub` to the [application form](http://wiki.cse.ucdavis.edu/cgi-bin/index2.pl) for an account. Make sure to ask to be part of the Ross-Ibarra group. Note that the admins and Jeff have access to log into your account if needed; signing up for an account on the cluster constitutes permission to allow this access.
 
-[comment/question]: <> (who is jeff annd this info  might not be relevant/change)
+[comment/question]: <> (confirm if it's farm.cse or agri.cse)
 
 ## SSH Config
 
 Make your life a little easier by adding the following to `~/.ssh/config`:
 
     Host farm
-        HostName agri.cse.ucdavis.edu
+        HostName farm.cse.ucdavis.edu
         User username
 
 Replace `username` with your username. This will allow you to ssh to

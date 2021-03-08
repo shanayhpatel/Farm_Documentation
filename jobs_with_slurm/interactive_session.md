@@ -6,7 +6,7 @@ Interactive sessions allow you to work on computers that aren't the login/head n
 
 [comment/question]: <> (something about jetstream in official doc, little context needed to make sure I have the right info)
 
-*Why is it dangerous?*
+**Useful tips to keep in mind while using `srun`**
 
 - The commands you run will not be saved in scripts anywhere. So, if you wanted to go back and recreate an analysis, you won't know what you've run, how you've run it or which versions of software you used.
 
@@ -43,6 +43,6 @@ $srunx your-partition
 
 Make sure your `X11` is open before you typing the command.
 
-Using `ssh -Y` with `X11` may seem like good idea, but this does not specify a partition to work interactively in, so you will end up running things on the head node. **Bad idea**.
+Using `ssh -Y` with `X11` may seem like good idea, but this does not specify a partition to work interactively in, so you will end up running things on the head node. **This is not ideal**.
 
 A **very important** bit of advice: remember to save and close your R sessions, as a network interruption will lead to a loss of your connection and data. Be sure to maintain your work in a script locally too. Also, when you're done, always close your R session. If not, SLURM will assume you are still using the session and its resources will held from other users.

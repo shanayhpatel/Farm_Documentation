@@ -25,3 +25,5 @@ There are **two** main ways you can request resources using Slurm:
 
 1. Running an interactive session with `srun`([Learn more](./interactive_session))
 2. Submitting batch script with `sbatch`([Learn more](./submitting_scripts))
+
+If you are familiar with some other workload manager( PBS/Torque, Slurm, LSF, SGE or LoadLeveler ), a cheat sheet comparing the commands can be found  [here](https://slurm.schedmd.com/rosetta.html).

@@ -8,7 +8,7 @@
 
 ## Software
 
-Requests for any centrally installed software should go to help@cse.ucdavis.edu. Any software that is available in CentOS/Ubuntu is also available for installation or already installed on this cluster. In many cases we compile and install our own software packages. These custom packages include compilers, mpi layers, open source packages, commercial packages, HDF, NetCDF, WRF, and others. We use Environment Modules to manage the environment. A quick intro:
+Requests for any centrally installed software should go to [farm-hpc@ucdavis.edu](mailto:farm-hpc@ucdavis.edu ) . Any software that is available in CentOS/Ubuntu is also available for installation or already installed on this cluster. In many cases we compile and install our own software packages. These custom packages include compilers, mpi layers, open source packages, commercial packages, HDF, NetCDF, WRF, and others. We use Environment Modules to manage the environment. A quick intro:
 
 - To get a list of available applications and libraries `module avail`
 - To setup your command line or script based environment - `module load <directory/application>`
@@ -18,6 +18,10 @@ Documentation on some of the custom installed software is at [HPC Software Docum
 [todo]: <> (New link once software packages documentation is ready, talk about what we want to keep)
 
 ## Hardware
+
+Hardware specifications of Farm.
+
+Hardware from both Farm II and Farm III are still in service; Farm I has been decommissioned as of 2014.
 
 **Interconnect**
 
@@ -32,7 +36,7 @@ Documentation on some of the custom installed software is at [HPC Software Docum
 
 **Farm II Interactive head node**
 
-- Agri, 12 cores/24 threads total, Intel Xeon E5-2620, 64 GB RAM (Samsung M393B1K70DH0-CK0 8x8GiB), 1x1TB Seagate ST1000NM0011 drive
+- Farm, 12 cores/24 threads total, Intel Xeon E5-2620, 64 GB RAM (Samsung M393B1K70DH0-CK0 8x8GiB), 1x1TB Seagate ST1000NM0011 drive
 
 **File Servers on Farm II**
 
@@ -53,9 +57,11 @@ Documentation on some of the custom installed software is at [HPC Software Docum
 - **NAS-12-2**, 4*87TB = 350TB
 - **NAS-12-3**, 4*87TB = 350TB
 
-Total usable disk space around 2.3P (not including filesystem and RAID overhead)
+Farm also has multiple other file servers with over 5.3PB of storage space total.
 
-[todo/question]: <> (what is raid? why do need to specify it?)
+
+
+[todo/question]: <> (ask for other files servers for updated info)
 
 **Infiniband interconnect currently on Farm II (32Gbps)** (high, low, and medium queue)
 
@@ -63,3 +69,5 @@ Total usable disk space around 2.3P (not including filesystem and RAID overhead)
 - 1 KVM console
 - 2 APC racks
 - 4 managed PDUs
+
+(This info was last updated March 2021)

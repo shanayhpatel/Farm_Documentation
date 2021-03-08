@@ -3,7 +3,7 @@
 
 **Farm is shared by users**. There is a queue established with multiple users submitting jobs. This means often times [Slurm](../jobs_with_slurm/slurm_intro.md) will allocate resources to your jobs only when nodes in your desired partition are open and not occupied by jobs from other users. In order to submit a job (covered [here](../jobs_with_slurm/slurm_intro.md)), you must specify which partition your job(s) will run on. Based on your memory and cpu requirements, and resources bought by you, you can choose to run with the following partition options:
 
-### Basic Priority
+### Basic Types of Partitions
 
 **Low** priority means that you might be killed at any time. Great for soaking up unused cycles with short jobs; a particularly good fit for large array jobs with short run times.
 
@@ -19,9 +19,8 @@
 
 - **bigmemm** (medium): This means your jobs might be suspended, but will resume when a high priority job finishes. Good for long jobs that need lots of cpu, but NOT recommended for MPI jobs. Up to 100% of idle resources can be used.
 
-- **bigmemh** (high) or (h): Your job will kill/suspend lower priority jobs. High priority means your jobs will keep the allocated hardware until it's done or there's a system or power failure. Limited to the number of CPUs your group contributed. Please check with Jeff or ask others before running anything using more than 16 cpu on bigmemh, as we only have 128 slots on this queue.
+- **bigmemh** (high) or (h): Your job will kill/suspend lower priority jobs. High priority means your jobs will keep the allocated hardware until it's done or there's a system or power failure. Limited to the number of CPUs your group contributed. Please check with your supervisor or others before running anything using more than 16 cpu on bigmemh, as we only have 128 slots on this queue.
 
-[todo]: <> (add jeff email)
 
 - **med**: These are the older parallel nodes. For many jobs not needing high memory, the parallel queue is still the way to go. There are many hundreds of cpu there, but we only have access to them at medium priority. Note that each node in this queue only has 24 cpu and 32G of RAM, so plan your scripts accordingly.
 
